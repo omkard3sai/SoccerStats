@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="SoccerStatsApp">
+<head>
+    <meta charset="UTF-8">
+    <title>SoccerStats</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="green accent-1">
+
+    <div class="container">
+        <div ng-view></div>
+    </div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/app.config.js"></script>
+<script src="app/competition-list/competition-list.module.js"></script>
+<script src="app/competition-list/competition-list.component.js"></script>
+<script src="app/competition-teams/competition-teams.module.js"></script>
+<script src="app/competition-teams/competition-teams.component.js"></script>
+<script src="app/player-list/player-list.module.js"></script>
+<script src="app/player-list/player-list.component.js"></script>
+</html>

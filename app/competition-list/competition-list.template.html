@@ -1,0 +1,12 @@
+<div class="row">
+    <h2 class="center-align">Soccer Stats</h2>
+    <div class="col s12 m6" ng-repeat="competition in $ctrl.competitionList">
+        <div class="card deep-purple lighten-5">
+            <div class="card-content">
+                <a class="card-title black-text" ng-href="#/teams/{{competition.competitionId}}">
+                    {{competition.name}}
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
