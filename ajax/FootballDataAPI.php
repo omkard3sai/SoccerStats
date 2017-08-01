@@ -1,5 +1,4 @@
 <?php
-
 class FootballDataAPI
 {
     function __construct()
